@@ -1,1 +1,70 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+body {
+    padding: 2em 23em;
+    background:lightgray;
+}
+
+
+.card-container {
+  margin:auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height:80%;
+  width:80%;
+  margin:10px auto;
+}
+
+sc-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-height: 400px;
+  max-width: 400px;
+}
+
+.card-header span {
+  position:absolute;
+  top:5px;
+  left:5px;
+  width:30px;
+  height:30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 15px;
+  background-color: #E1E1E1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+}
+
+.card-content img {
+  max-width:90%;
+  max-height:90%;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.left-panel {
+  float:left;
+  height:100%;
+  width:100%;
+  max-width:400px;
+}
